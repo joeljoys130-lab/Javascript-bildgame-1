@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Whack-a-mole</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,12 +14,14 @@
             Score:<span id="score">0</span>
         </div>
     <section id="gameboard">
-        <button id="button-1" class="mole"></button>
-        <button id="button-2" class="mole"></button>
-        <button id="button-3" class="mole"></button>
+        <button id="mole-1" class="mole"></button>
+        <button id="mole-2" class="mole"></button>
+        <button id="mole-3" class="mole"></button>
     </section>
+    <p id="Winmessage" style="display: none;">🎉 You Win!</p>
       <button type="submit" id="reset">Reset</button>
       </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
